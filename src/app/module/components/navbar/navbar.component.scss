@@ -1,0 +1,66 @@
+:host {
+    nav {
+        padding: 0.5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--primary);
+        width: 100vw;
+        height: 8vh;
+    }
+
+    .logo,
+    .menu {
+        display: flex;
+        align-items: center;
+        color: var(--white);
+        width: 30vw;
+    }
+
+    .logo {
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        justify-content: flex-start;
+        font-size: 1rem;
+        font-weight: bold;
+        background: var(--primary);
+        margin: 0 0.5rem;
+
+        img {
+            margin-right: 0.5rem;
+        }
+    }
+
+    .nav-item-box {
+        width: 25rem;
+        justify-content: space-between;
+    }
+
+    button.search {
+        background: var(--secondary);
+        border: 1px solid var(--primary-010);
+        border-radius: 5px;
+        margin: 0px 1rem;
+
+        &:hover {
+            background: var(--secondary-010)
+        }
+    }
+
+    .search-input {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    @media only screen and (max-device-width: 700px) {
+        .menu {
+            margin: 0.5rem;
+        }
+    }
+
+}
