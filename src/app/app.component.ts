@@ -8,8 +8,7 @@ import { CardComponent } from "./module/components/card/card.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: `<router-outlet></router-outlet>`,
   imports: [CommonModule, RouterOutlet, NavbarComponent, PageHeaderComponent, CardComponent]
 })
 export class AppComponent {
