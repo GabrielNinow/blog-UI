@@ -36,3 +36,20 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* scroolbar */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-010)
+}
