@@ -1,0 +1,27 @@
+:host {
+    span {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .content {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .social {
+        display: flex;
+
+        .icon {
+            padding: 5px;
+        }
+    }
+}
