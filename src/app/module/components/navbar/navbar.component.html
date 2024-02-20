@@ -1,5 +1,5 @@
 <nav>
-    <button class="menu">
+    <button class="menu" (click)="toggleMenu()">
         <img src="assets\icons\bars.svg" alt="hamburguer icon" width="20px" height="20px">
         MENU
     </button>
@@ -10,9 +10,10 @@
         <button class="btn btn-primary search">
             <img src="assets\icons\magnifying-glass.svg" alt="magnifying-glass" width="22px" height="22px">
         </button>
-
         <!-- <app-input-search /> -->
     </div>
-
-
 </nav>
+
+@if (isOpen) {
+<app-menu-bar />
+}
