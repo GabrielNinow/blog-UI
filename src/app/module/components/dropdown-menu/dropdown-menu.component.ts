@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-menu-bar',
+  selector: 'app-dropdown-menu',
   standalone: true,
   imports: [RouterLink, RouterModule],
-  templateUrl: './menu-bar.component.html',
-  styleUrl: './menu-bar.component.scss'
+  templateUrl: './dropdown-menu.component.html',
+  styleUrl: './dropdown-menu.component.scss'
 })
-export class MenuBarComponent {
+export class DropdownMenuComponent {
 
 }

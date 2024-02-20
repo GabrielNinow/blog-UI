@@ -1,8 +1,21 @@
 <nav>
-    <button class="menu" (click)="toggleMenu()">
+    <button class="menu-mobile" (click)="toggleMenu()">
         <img src="assets\icons\bars.svg" alt="hamburguer icon" width="20px" height="20px">
         MENU
     </button>
+
+    <!-- <div class="menu">
+        <ul>
+            <li>
+                <a href="">Reports</a>
+            </li>
+            <li>
+                <a href="">User</a>
+            </li>
+        </ul>
+    </div> -->
+
+    <app-dropdown-menu class="menu-admin" />
 
     <a href="/" class="logo">Placeholder</a>
 

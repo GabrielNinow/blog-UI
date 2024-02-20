@@ -14,21 +14,31 @@
     }
 
     .logo,
-    .menu {
-        display: flex;
+    .menu-admin,
+    .menu-mobile {
         align-items: center;
         color: var(--white);
         width: 30%;
     }
 
+    .menu-admin {
+        display: flex;
+        justify-content: flex-start;
+        font-weight: bold;
+        margin: 0 2rem;
+    }
+
+
+
     .logo {
+        display: flex;
         justify-content: center;
         font-size: 1.5rem;
     }
 
-    .menu {
+    .menu-mobile {
+        display: none;
         justify-content: flex-start;
-        font-size: 1rem;
         font-weight: bold;
         background: var(--primary);
         margin: 0 0.5rem;
@@ -50,14 +60,19 @@
     }
 
     .search-input {
-        width: 30vw;
+        width: 30%;
         display: flex;
         justify-content: flex-end;
     }
 
     @media only screen and (max-device-width: 700px) {
-        .menu {
+        .menu-mobile {
+            display: flex;
             margin: 0.5rem;
+        }
+
+        .menu {
+            display: none;
         }
     }
 
