@@ -22,4 +22,8 @@ export const routes: Routes = [
         path: 'user/login',
         component: LoginSignupComponent,
     },
+    {
+        path: 'user/register',
+        component: LoginSignupComponent,
+    },
 ];

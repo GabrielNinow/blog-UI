@@ -1,6 +1,10 @@
 :host {
-    a {
+    li>a {
         color: var(--black-010);
+    }
+
+    li>a:hover {
+        border-bottom: 3px solid var(--primary);
     }
 
     ul {
@@ -15,17 +19,14 @@
         align-items: center;
     }
 
-    a:hover {
-        border-bottom: 3px solid var(--primary);
-    }
-
     header {
         height: 12vh;
         min-height: 50px;
         max-height: 70px;
     }
 
-    button {
+    button,
+    a {
         margin: 0 1rem;
     }
 
